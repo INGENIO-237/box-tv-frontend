@@ -1,6 +1,6 @@
 import { Network } from "lucide-react";
 import Wrapper from "../Wrapper";
-import LeadingIcon from "./LeadingIcon";
+import LeadingIcon from "../common/LeadingIcon";
 
 export default function Map() {
   return (
