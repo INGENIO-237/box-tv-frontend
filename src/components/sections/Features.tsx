@@ -1,7 +1,7 @@
 import Wrapper from "../Wrapper";
-import Brothers from "../common/Brothers";
 import LeadingIcon from "../common/LeadingIcon";
 import { Separator } from "../ui/separator";
+import Brothers from "./Brothers"
 
 export default function Features() {
   return (
