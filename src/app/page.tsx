@@ -1,15 +1,50 @@
-import { Wifi } from "lucide-react";
-import Image from "next/image";
+import Wrapper from "@/components/Wrapper";
+import Feature from "@/components/common/Feature";
+import LeadingIcon from "@/components/common/LeadingIcon";
+import Map from "@/components/common/Map";
+import Area from "@/components/sections/Area";
+import Features from "@/components/sections/Features";
+import Options from "@/components/sections/Options";
+import Products from "@/components/sections/Products";
+import Services, { Service } from "@/components/sections/Services";
+import { BarChart, FastForward, RadioTowerIcon, Wifi } from "lucide-react";
 
 export default function Home() {
+  const services: Service[] = [
+    { icon: <Wifi color="#26416C" size={35} />, title: "Wifi Seamless" },
+    { icon: <BarChart color="#26416C" size={35} />, title: "Speed On Demand" },
+    {
+      icon: <RadioTowerIcon color="#26416C" size={35} />,
+      title: "Upgrade Speed",
+    },
+    {
+      icon: <FastForward color="#26416C" size={35} />,
+      title: "Download 1Gbps",
+    },
+  ];
   return (
-    // Presentation
-    <section>
-      <div className="flex flex-col justify-center items-center my-5">
-        <Wifi  />
-        <h1>BEST TV BOX Features</h1>
-        <h1 className="text-3xl text-center">We Are Internet Service Provider Company</h1>
-      </div>
-    </section>
+    <div>
+      {/* Services */}
+      <Services services={services} />
+
+      {/* Features */}
+      <Features />
+
+      {/* Options */}
+      <Options />
+
+      {/* Area */}
+      <Area />
+
+      {/* Products */}
+      <section>
+        <Products />
+      </section>
+
+      {/* Map */}
+      <section>
+        <Map />
+      </section>
+    </div>
   );
 }
