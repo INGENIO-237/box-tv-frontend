@@ -29,6 +29,7 @@ export default function Services({ services }: { services: Service[] }) {
               icon={icon}
               title={title}
               content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+              key={index}
             />
           );
         })}

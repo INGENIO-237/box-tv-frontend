@@ -1,0 +1,19 @@
+.imageContainer {
+  background-image: url("../../../public/images/japanese-spouses-tablet.png");
+  background-position: center;
+  background-size: cover;
+
+}
+
+.mask {
+  background: linear-gradient(
+    180.88deg,
+    rgba(68, 58, 89, 0.76) -13.15%,
+    rgba(0, 0, 0, 0.407444) 129.74%,
+    rgba(0, 0, 0, 0.33) 161.13%
+  );
+}
+
+.testimony {
+  box-shadow: 0px 3px 15px 0px #00000036;
+}

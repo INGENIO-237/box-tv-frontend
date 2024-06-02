@@ -8,7 +8,7 @@ type Props = {
 
 export default function Wrapper({ className, children }: Props) {
   return (
-    <div className={cn("h-full mx-auto w-full max-w-screen-xl px-5 md:px-20")}>
+    <div className={cn("h-full mx-auto w-full max-w-screen-xl px-5 md:px-20", className)}>
       {children}
     </div>
   );
