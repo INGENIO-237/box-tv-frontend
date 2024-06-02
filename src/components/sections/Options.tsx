@@ -26,7 +26,7 @@ export default function Options() {
           </div>
           <div className="flex flex-col items-center space-y-2">
             <Wallet color="#26416C" size={35} />
-            <span>Flexible Tariff Plans</span>
+            <span>Flexible Tarif Plans</span>
           </div>
           <div className="flex flex-col items-center space-y-2">
             <Headphones color="#26416C" size={35} />

@@ -5,6 +5,8 @@ import Options from "@/components/sections/Options";
 import Products from "@/components/sections/Products";
 import Services, { Service } from "@/components/sections/Services";
 import { BarChart, FastForward, RadioTowerIcon, Wifi } from "lucide-react";
+import Testimonials from "@/components/sections/Testimonials";
+import News from "@/components/sections/News";
 
 export default function Home() {
   const services: Service[] = [
@@ -34,14 +36,16 @@ export default function Home() {
       <Area />
 
       {/* Products */}
-      <section>
-        <Products />
-      </section>
+      <Products />
 
       {/* Map */}
-      <section>
-        <Map />
-      </section>
+      <Map />
+
+      {/* Testimonials */}
+      <Testimonials />
+
+      {/* News */}
+      <News />
     </div>
   );
 }

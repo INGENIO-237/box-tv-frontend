@@ -45,7 +45,7 @@ export default function Products() {
         <LeadingIcon />
         <h1 className="text-[#046C75] font-bold">BEST TV BOX Pricing</h1>
         <h1 className="text-3xl text-center font-bold">
-        Discover Our Best Plans
+          Discover Our Best Plans
         </h1>
       </div>
       <div className="flex flex-col items-center md:flex-row md:flex-wrap md:justify-between md:gap-5 my-7 lg:grid lg:grid-cols-3">
