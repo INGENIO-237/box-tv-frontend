@@ -19,7 +19,7 @@ export default function Testimony({
   return (
     <div
       className={cn(
-        "p-5 border min-h-[240px] w-[400px] bg-white rounded-[20px] md:w-[350px] md:min-h-[260px] space-y-5",
+        "p-5 border min-h-[240px] w-full bg-white rounded-[20px] md:w-[350px] md:min-h-[260px] space-y-5",
         styles.testimony
       )}
     >

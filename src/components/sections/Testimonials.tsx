@@ -55,9 +55,9 @@ export default function Testimonials() {
       </div>
       <div className="md:relative md:flex md:justify-center md:pb-40">
         <Wrapper className="md:flex md:flex-justify-center md:items-center md:h-auto md:absolute md:-top-40">
-          <div className="flex flex-col items-center md:flex-row gap-5 mt-5 md:justify-center w-full">
-            {testimonials.map((testimonial) => {
-              return <Testimony testimonial={testimonial} />;
+          <div className="flex flex-col items-center md:flex-row gap-5 mt-5 md:gap-auto md:justify-between w-full">
+            {testimonials.map((testimonial, index) => {
+              return <Testimony testimonial={testimonial} key={index} />;
             })}
           </div>
         </Wrapper>

@@ -69,7 +69,7 @@ export default function News() {
         <div className="w-[400px] md:w-[350px] bg-[#E8E8E8] rounded-xl p-5 space-y-5 hidden md:block h-[450px]">
           {posts.slice(2).map((post, index) => {
             return (
-              <div>
+              <div key={index}>
                 <h1 className="text-lg font-bold">{post.title}</h1>
                 <div className="text-gray-400 text-sm flex items-center mt-2"><Calendar size={19} className="mr-2" />{post.date}</div>
               </div>
