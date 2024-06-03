@@ -35,6 +35,7 @@ export default function Testimonials() {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
   ];
+
   return (
     <div className="w-full flex flex-col pb-10">
       <div className={cn(styles.imageContainer, "w-full md:h-[500px]")}>
