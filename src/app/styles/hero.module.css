@@ -10,6 +10,12 @@
   background-size: cover;
 }
 
+.packagesImageContainer {
+  background-image: url("../../../public/images/cc.png");
+  background-position: center;
+  background-size: cover;
+}
+
 .mask {
   background: linear-gradient(
     111.13deg,
