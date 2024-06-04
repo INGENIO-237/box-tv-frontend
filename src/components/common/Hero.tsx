@@ -14,7 +14,9 @@ type Props = {
 
 export default function Hero({ className, children }: Props) {
   return (
+    // Main container
     <div className={cn("w-full h-auto text-white", className)}>
+      {/* Mask */}
       <div className={cn("w-full h-auto pb-10", styles.mask)}>
         <Wrapper className="h-auto py-5 text-white flex flex-col items-center gap-3 md:flex-row md:justify-between">
           <div>
@@ -38,7 +40,7 @@ export default function Hero({ className, children }: Props) {
         </Wrapper>
         <Separator />
         <Wrapper className="py-5 flex justify-between items-center h-auto">
-          <img src="logo_2.png" className="w-50 h-40 -ml-5" alt="" />
+          <img src="logo_2.png" className="w-50 h-40 -ml-5 pointer-events-none" alt="" />
           {/* Normal Navbar */}
           <Navbar className="hidden md:block w-auto" />
 
