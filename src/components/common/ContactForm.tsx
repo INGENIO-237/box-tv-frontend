@@ -38,7 +38,7 @@ export default function ContactForm() {
         <div className={cn(styles.form_group)}>
           <textarea className={cn(styles.form_control, "min-h-[100px]")} placeholder="Your request"></textarea>
         </div>
-        <Button className="w-full rounded-full bg-[#26416C] font-bold">Submit</Button>
+        <Button className="w-full rounded-full bg-[#26416C] hover:bg-[#26416C] font-bold">Submit</Button>
       </form>
     </div>
   );
