@@ -39,7 +39,7 @@ export default function Product({ product }: { product: Props }) {
         <div>
           {characteristics.map((characteristic, index) => {
             return (
-              <span className="flex gap-3">
+              <span className="flex gap-3" key={index}>
                 <div className="w-max p-1 mb-3 bg-[#26416C] rounded-full">
                   <Check size={15} color="white" />
                 </div>

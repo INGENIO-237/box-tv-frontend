@@ -1,0 +1,20 @@
+.homeImageContainer {
+  background-image: url("../../../public/images/people.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.servicesImageContainer {
+  background-image: url("../../../public/images/friends.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.mask {
+  background: linear-gradient(
+    111.13deg,
+    #26416c -5.08%,
+    rgba(38, 65, 108, 0.71) 50.85%,
+    rgba(4, 108, 117, 0.64) 99.58%
+  );
+}

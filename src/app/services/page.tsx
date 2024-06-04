@@ -13,6 +13,9 @@ import React from "react";
 import Map from "../../components/sections/Map";
 import Area from "../../components/sections/Area";
 import Features from "../../components/sections/Features";
+import Hero from "@/components/common/Hero";
+import styles from "@/app/styles/hero.module.css"
+import { cn } from "@/lib/utils";
 
 export default function ServicesPage() {
   const services: Service[] = [
@@ -37,6 +40,11 @@ export default function ServicesPage() {
 
   return (
     <div>
+      {/* Hero */}
+      <Hero className={cn(styles.servicesImageContainer, "h-[50vh]")}>
+        <h1>Services</h1>
+      </Hero>
+      
       <Services services={services} />;
       <Map />
       <Area />

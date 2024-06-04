@@ -48,7 +48,7 @@ export default function Products() {
           Discover Our Best Plans
         </h1>
       </div>
-      <div className="flex flex-col items-center md:flex-row md:flex-wrap md:justify-between md:gap-5 my-7 lg:grid lg:grid-cols-3">
+      <div className="flex flex-col items-center md:flex-row md:flex-wrap md:justify-between my-7">
         {products.map((product, index) => {
           return <Product product={product} key={index} />;
         })}

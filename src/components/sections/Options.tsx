@@ -7,7 +7,7 @@ export default function Options() {
     <>
       <Separator className="my-5" />
       <Wrapper>
-        <div className="grid grid-cols-3 lg:grid-cols-6 gap-y-5 mb-10">
+        <div className="grid grid-cols-3 lg:flex lg:justify-between mb-10">
           <div className="flex flex-col items-center space-y-2">
             <Tv color="#26416C" size={35} />
             <span>250+ Channels</span>
@@ -26,7 +26,7 @@ export default function Options() {
           </div>
           <div className="flex flex-col items-center space-y-2">
             <Wallet color="#26416C" size={35} />
-            <span>Flexible Tarif Plans</span>
+            <span>Flexible Plans</span>
           </div>
           <div className="flex flex-col items-center space-y-2">
             <Headphones color="#26416C" size={35} />
